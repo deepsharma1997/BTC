@@ -41,7 +41,7 @@ thus have no afect the associated normal brain parenchyma
 while malignant tumors growth is very rapid and afects 
 other parts of brain.
 * The algorithm is stated below.
-* Input: List of images with supporting list of labels.
+* **Input:** List of images with supporting list of labels.
 * Output: Trained model and predictions.
 * Step1: Import all the images and labels into python lists.
 * Step2: Resizing all the images to a size of 256*256.
