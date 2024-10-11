@@ -27,7 +27,7 @@ classifcation purpose.
 ### Installation <a name="installation"></a>
 
 * Datasets: The dataset used in this project is publicly available and can be downloaded from Kaggle (https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri). It consists of 3264 brain MR images, which are subdivided  into 926 MR images of Glioma tumor, 937 MR images of  meningioma tumor, 901 MR images of pituitary tumor, and  500 MR images of no tumor.
-    - Colaboratory allows you to use and share Jupyter notebooks with others without having to download, install, or run anything on your own computer (other than a browser).
+* Colaboratory allows you to use and share Jupyter notebooks with others without having to download, install, or run anything on your own computer (other than a browser).
 
 ### Project  <a name="project"></a>
 
@@ -40,29 +40,27 @@ Benign tumors propagate slowly, which do not spread and
 thus have no afect the associated normal brain parenchyma 
 while malignant tumors growth is very rapid and afects 
 other parts of brain.
-The algorithm is stated below.
-Input: List of images with supporting list of labels.
-Output: Trained model and predictions.
-Step1: Import all the images and labels into python lists.
-Step2: Resizing all the images to a size of 256*256.
-Step3: Converting all the resized images and supporting 
-labels into NumPy arrays.
-Step4: Segregating the dataset into train & test sets and 
-perform one-hot encoding on labels.
-Step5: Building the model:
-Step6: Compiling model by considering following 
+* The algorithm is stated below.
+* Input: List of images with supporting list of labels.
+* Output: Trained model and predictions.
+* Step1: Import all the images and labels into python lists.
+* Step2: Resizing all the images to a size of 256*256.
+* Step3: Converting all the resized images and supporting labels into NumPy arrays.
+* Step4: Segregating the dataset into train & test sets and perform one-hot encoding on labels.
+* Step5: Building the model:
+* Step6: Compiling model by considering following 
 parameters:
-Loss function=categorical_crossentropy.
-Optimizer=Adam.
-Performance metrics=Accuracy.
-Step7: Introduce callback functions used for metrics 
+- Loss function=categorical_crossentropy.
+- Optimizer=Adam.
+- Performance metrics=Accuracy.
+* Step7: Introduce callback functions used for metrics 
 optimization.
-Tensor Board for measurements and visualizations of 
+- Tensor Board for measurements and visualizations of 
 metrics.
-Model Checkpoint for check pointing the model weights.
-Reduce Learning Rate (LR) on plateau for reducing the 
+- Model Checkpoint for check pointing the model weights.
+- Reduce Learning Rate (LR) on plateau for reducing the 
 learning rate for improving the metrics.
-Step8: Test the model and get predictions.
+* Step8: Test the model and get predictions.
 
 ## Results<a name="results"></a>
 
