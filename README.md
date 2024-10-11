@@ -50,7 +50,7 @@ other parts of brain.
 * Step5: Building the model:
 * Step6: Compiling model by considering following 
 parameters:
-- Loss function=categorical_crossentropy.
+> Loss function=categorical_crossentropy.
 - Optimizer=Adam.
 - Performance metrics=Accuracy.
 * Step7: Introduce callback functions used for metrics 
