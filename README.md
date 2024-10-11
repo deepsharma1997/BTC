@@ -64,7 +64,7 @@ learning rate for improving the metrics.
 
 ## Results<a name="results"></a>
 
-In the end, I could validate a test image passed through the model.
+Training and validation curves for each model is saved in the [report]([https://github.com/deepsharma1997/Brain_Tumor_Classifier-BTC/tree/main/report]) folder. The classification report on the testing dataset for each model is also saved in this folder.
 
 ![validation](https://github.com/nazianafis/Brain-Tumor-Classification/blob/main/screenshots/valid-img.png)
 
