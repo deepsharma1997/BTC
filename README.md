@@ -69,6 +69,6 @@ Training and validation curves for each model is saved in the [**report**]([http
 
 
 ## Author<a name="author"></a>
-* [Deepanshu Sharma](https://github.com/[deepsharma1997])
+* [Deepanshu Sharma](https://github.com/deepsharma1997)
 
 
